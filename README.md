@@ -28,9 +28,9 @@ All missing IV values are reconstructed **purely cross-sectionally** — using o
 
 | Regime | Flat Wings MSE | Log-Slope Wings MSE | Improvement |
 |--------|---------------|---------------------|-------------|
-| Normal (IV ≤ 0.5) | — | — | ~10–15% |
-| Spike (IV > 0.5) | — | — | ~75%+ |
-| **All cells** | — | — | **~75% lower** |
+| Normal (IV ≤ 0.5) | 0.000085 | 0.000043 | 49% lower |
+| Spike (IV > 0.5)  | 0.008805 | 0.004054 | 54% lower |
+| **All cells**     | 0.000710 | 0.000147 | **79% lower** |
 
 *(Fill in actual values after running the notebook)*
 
